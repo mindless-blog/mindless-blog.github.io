@@ -1,0 +1,104 @@
+:root {
+    --mainBlue: #003fcc; 
+}
+
+body {
+	background-color: #7fade5;
+	transition: .5s;
+	font-family: 'EB Garamond';
+	display: flex;
+	flex-direction: column;
+}
+
+
+h1, h2, h3, body {
+	margin: 0;
+}
+
+/*TEXT*/
+	#home {
+		font-size: 18px;
+		font-weight: 400;
+
+		border-bottom: 2px solid transparent;
+		color: white;
+
+		margin: 1rem auto;
+		display: inline-block;
+		text-align: center;
+	}
+
+
+	#home:hover {
+		border-bottom: 2px solid white;
+		cursor: pointer;
+	}
+
+	h1{ /*title*/
+		font-family: 'EB Garamond';
+		font-size: 45px;
+		font-weight: 700;
+		text-align: center;
+
+		margin-bottom: 2rem;
+	}
+
+	p{
+		font-weight: 400;
+		font-size: 18px;
+		line-height: 1.4;
+
+		width: 85%;
+		margin: 0.75rem auto .75rem auto;
+	}
+
+a {
+	color: black;
+	font-weight: 500;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+#island {
+	width: 70%;
+	max-width: 950px;
+
+	margin: 0 auto 2rem auto;
+	padding: 2rem;
+	box-sizing: border-box;
+
+	background-color: white;
+}
+
+@media only screen and (max-width: 993px){
+	#island {
+		width: 85%;
+	}
+
+	h3, p {
+		width: 85%;
+	}
+}
+
+@media only screen and (max-width: 576px){
+	#island {
+		width: 90%;
+		padding: 2rem 1.5rem 1rem 1.5rem ;
+	}
+
+	h3, p {
+		width: 100%;
+	}
+
+	p {
+		font-size: 15px;
+		margin: .75rem auto;
+	}
+}
+
+/*993, 768, 576 */
+
+
