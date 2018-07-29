@@ -6,8 +6,8 @@ permalink: /social-media
 
 # SOCIAL MEDIA
 
-<p style="color: #666; display: block; text-align: center; margin-bottom: 0"><i>“It is difficult to find happiness within oneself, but it is impossible to find it anywhere else.”</i></p>   
-<p style="color: #666; display: block; text-align: center; margin-top: 0">- Arthur Schopenhauer</p>
+<p id="quote">“It is difficult to find happiness within oneself, but it is impossible to find it anywhere else.”</p>   
+<p id="quote-author">- Arthur Schopenhauer</p>
 
 
 
@@ -32,6 +32,6 @@ Until then,
 Ethan & Martin
 
 
-<img style="width: 500px; display: block; margin:0 auto" src="/assets/art/social-media.jpg"/>  
+<img style="width: 75%; display: block; margin:0 auto" src="/assets/art/social-media.jpg"/>  
 <i style="color: #777; display: block; text-align: center;">Art by <a href="http://ashmackenzie.com/">Ashley Mackenzie</a></i>
 
