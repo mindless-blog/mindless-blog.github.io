@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Social Media
+num: 1
 permalink: /social-media
 ---
 

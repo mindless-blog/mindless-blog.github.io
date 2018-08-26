@@ -68,12 +68,24 @@ h1, h2, h3, body {
 		margin-bottom: 2rem;
 	}
 
-	p{
+	h2 {
+		width: 85%;
+		margin: 2.5rem auto 1rem auto;
+	}
+
+	li, p {
 		font-weight: 400;
 		font-size: 18px;
 		line-height: 1.4;
 
 		width: 85%;
+	}
+
+	li {
+		margin: 0.25rem auto .25rem auto;
+	}
+
+	p {
 		margin: 0.75rem auto .75rem auto;
 	}
 
@@ -85,6 +97,11 @@ a {
 
 a:hover {
 	text-decoration: underline;
+}
+
+iframe { /*video*/
+	display: block;
+	margin: 0 auto;
 }
 
 #island {
@@ -103,7 +120,7 @@ a:hover {
 		width: 85%;
 	}
 
-	h3, p {
+	li, h2, h3, p {
 		width: 85%;
 	}
 }
@@ -114,8 +131,12 @@ a:hover {
 		padding: 2rem 1.5rem 1rem 1.5rem ;
 	}
 
-	h3, p {
+	li, h2, h3, p {
 		width: 100%;
+	}
+
+	li {
+		font-size: 15px;
 	}
 
 	p {

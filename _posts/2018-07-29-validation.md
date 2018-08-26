@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Validation
+num: 2
 permalink: /validation
 ---
 
@@ -32,5 +33,4 @@ Meditation is a powerful practice that can enable us to heighten our awareness i
 Until then,   
 Ethan & Martin
 
-<iframe style="display: block; margin: 0 auto;" width="560" height="315" src="https://www.youtube.com/watch?v=eYlom6XusMc" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-
+<iframe width="560" height="315" src="https://www.youtube.com/embed/eYlom6XusMc" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
