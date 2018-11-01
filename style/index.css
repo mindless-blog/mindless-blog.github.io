@@ -12,7 +12,24 @@ body, h1, h2, p {
 	width: 100%;
 	box-sizing: border-box;
 	margin: 0 auto;
-	padding: 5rem 0 6rem 3rem;
+	padding: 3rem;
+
+
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: center;
+}
+
+
+#imagediv {
+	width: 55%;
+}
+
+#intropic {
+	width: 100%;
+	height: auto;
+	border: 5px solid rgba(255,255,255,0.85);
 }
 
 #intro h1 {
@@ -88,6 +105,8 @@ body, h1, h2, p {
 #mc_embed_signup .button:hover { background-color: #555;}
 
 
+
+
 #content {
 	background-color: white;
 	width: 100%;
@@ -146,6 +165,17 @@ a:hover{
 
 #footer div {
 	margin: .25rem auto;
+}
+
+@media only screen and (max-width: 900px){
+	#imagediv {
+		width: 75%;
+		margin-top: 2rem;
+	}
+
+	#intro{
+		padding-bottom: 4rem;
+	}
 }
 
 @media only screen and (max-width: 700px) {
