@@ -2,6 +2,7 @@ body {
 	font-family: 'EB Garamond';
 	background-color: #7fade5;
 	width: 100%;
+	max-width: 100%;
 }
 
 body, h1, h2, p {
